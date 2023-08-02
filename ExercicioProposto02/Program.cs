@@ -27,19 +27,12 @@ Perimetro = 2 * B + 2 * A;
 Diagonal = Math.Sqrt(Math.Pow(B, 2.0) + Math.Pow(A, 2.0));
 
  Console.WriteLine("O Tamanho da Area é: " + Area.ToString("F4"), CultureInfo.InvariantCulture);
-
+ 
 Console.WriteLine("O Tamanho do Perimetro é: " + Perimetro.ToString("F4"), CultureInfo.InvariantCulture);
 
 Console.WriteLine("O Tamanho da Diagonal é: " + Diagonal.ToString("F4"), CultureInfo.InvariantCulture);
 
-
 Console.ReadLine();
-
-
-
-
-
-
 
 //Como calcular um perimetro com os dados de Base e Altura
 //Como calcular uma diagonal
